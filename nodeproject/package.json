@@ -1,0 +1,26 @@
+{
+  "name": "node-example",
+  "version": "0.0.0",
+  "description": "example of running an express node server",
+  "main": "server.js",
+  "author": "Robert Bourbonnais <rhbourbonnais@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.5.5",
+    "express": "~4.13.3",
+    "mongodb": "^2.2.24",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC"
+}
